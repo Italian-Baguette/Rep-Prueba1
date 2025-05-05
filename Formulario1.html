@@ -1,0 +1,42 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<h1> Formulario 21 Abril </h1>
+		<form Action="inserta.php" method="post">
+			Ingrese Codigo:
+			<input type="number" name="codigo"> <br><br>
+			Ingrese Nombre:
+			<input type="text" name="nombre"> <br><br>
+			<input type="submit" value="Inserta"> <br><br>
+		</form>
+		
+		<form action="listar.php" method="get">
+			<h1> Listar </h1>
+			<input type="submit" value="Lista datos"> <br><br>
+		</form>
+		
+		<form action="buscar.php" method="post">
+			<h1> Buscar </h1>
+			Ingrese Codigo:
+			<input type="number" name="codigo"> <br><br>
+			<input type="submit" value="Buscar por codigo"> <br><br>
+		</form>
+		
+		<form action="eliminar.php" method="post">
+			<h1> Eliminar </h1>
+			Ingrese Codigo:
+			<input type="number" name="codigo"> <br><br>
+			<input type="submit" value="Eliminar por codigo"> <br><br>
+		</form>
+		
+		<form action="actualizar.php" method="post">
+			<h1> Actualizar </h1>
+			Ingrese Codigo:
+			<input type="number" name="codigo"> <br><br>
+			Ingrese Nombre Nuevo:
+			<input type="text" name="nombre"> <br><br>
+			<input type="submit" value="Actualizar"> <br><br>
+		</form>
+	</body>
+</html>
